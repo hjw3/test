@@ -1,0 +1,7 @@
+# 파일명 중복 방지를 위해
+
+	java.util.UUID 클래스 이용
+	UUID uuid = UUID.randomUUID();
+	filename = uuid.toString() + "_" + filename;
+
+
